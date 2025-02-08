@@ -61,9 +61,10 @@ h1 {
 .gif_container img {
     max-width: 80%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 0; /* Removes rounded corners */
     margin-top: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: none; /* Removes box shadow */
+    border: none; /* Ensures no border around the image */
 }
 
 /* Add cute heart animations */
@@ -76,3 +77,4 @@ h1 {
 h1 {
     animation: floating 2s infinite ease-in-out;
 }
+
