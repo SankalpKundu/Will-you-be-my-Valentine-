@@ -1,6 +1,6 @@
 const messages = [
-    "Are you sure :( ?",
-    "Really sure??",
+    "you clicked the wrong button loser",
+    "wrong AGAIN.",
     "so u hate me basically?",
     "pingu please...",
     "Just think about it!",
