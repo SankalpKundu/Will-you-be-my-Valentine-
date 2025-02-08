@@ -36,9 +36,10 @@ body {
     width: 90%; 
     max-width: 500px; 
     height: auto; 
-    border-radius: 15px;
+    border-radius: 0; /* Removes rounded corners */
     margin-top: 20px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: none; /* Removes box shadow */
+    border: none; /* Ensures no border around the image */
     animation: floating 2s infinite ease-in-out;
 }
 
@@ -48,4 +49,5 @@ body {
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
 }
+
 
