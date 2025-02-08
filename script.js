@@ -1,14 +1,16 @@
 const messages = [
     "you clicked the wrong button loser",
     "wrong AGAIN.",
+    "THE AUDACITY-",
     "so u hate me basically?",
     "pingu please...",
+    "HEAR ME OUT-",
     "Just think about it!",
     "If you say no, I will be really sad...",
     "I will literally kms",
     "picture me as a sad orange cat",
     "Ok fine, I will stop asking...",
-    "SIKE LOSER, say yes please! ❤️"
+    "SIKE LOSER, say yes (last chance frr)! ❤️"
 ];
 
 let messageIndex = 0;
