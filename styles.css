@@ -4,48 +4,75 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
+    background-color: #ffebef; /* Soft pink background */
+    font-family: 'Poppins', sans-serif;
     flex-direction: column;
-  }
-  
-  .container {
+}
+
+.container {
     text-align: center;
-  }
-  
-  h1 {
+    background: #fff0f6; /* Light pink card */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ff4d6d; /* Romantic border */
+}
+
+h1 {
     font-size: 2.5em;
-    color: #d32f2f;
-  }
-  
-  .buttons {
+    color: #d6336c; /* Dark pink text */
+    font-weight: bold;
+}
+
+.buttons {
     margin-top: 20px;
-  }
-  
-  .yes-button {
+}
+
+.yes-button, .no-button {
     font-size: 1.5em;
-    padding: 10px 20px;
-    margin-right: 10px;
-    background-color: #4caf50;
-    color: white;
+    padding: 12px 24px;
+    margin: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
-  }
-  
-  .no-button {
-    font-size: 1.5em;
-    padding: 10px 20px;
-    background-color: #f44336;
+    transition: all 0.3s ease;
+}
+
+.yes-button {
+    background-color: #ff4d6d; /* Bright pink */
     color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .gif_container img {
-    max-width: 100%;
+    box-shadow: 0 4px 10px rgba(255, 77, 109, 0.3);
+}
+
+.no-button {
+    background-color: #ffccd5; /* Soft pink */
+    color: #d6336c;
+    box-shadow: 0 4px 10px rgba(255, 204, 213, 0.3);
+}
+
+.yes-button:hover {
+    background-color: #d6336c;
+}
+
+.no-button:hover {
+    background-color: #faa2c1;
+}
+
+.gif_container img {
+    max-width: 80%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-top: 20px;
-  }
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add cute heart animations */
+@keyframes floating {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0); }
+}
+
+h1 {
+    animation: floating 2s infinite ease-in-out;
+}
